@@ -1,0 +1,9 @@
+2021-11-22 12:16:53,457  INFO [main] TestRunner:60 - Title Verified successfully
+2021-11-22 12:16:53,673  INFO [main] TestRunner:70 - product added to the cart
+2021-11-22 12:18:07,056  INFO [main] TestRunner:47 - product has been searched
+2021-11-22 12:18:30,894  INFO [main] TestRunner:59 - birthday gift added to the cart
+2021-11-22 12:19:29,555  INFO [main] TestRunner:58 - Merchandise product is selected
+2021-11-22 12:19:46,798  INFO [main] TestRunner:54 - product has been added through WhatsNew link
+2021-11-22 12:20:07,264  INFO [main] TestRunner:53 - Personalized gift is added to cart
+2021-11-22 12:20:24,350  INFO [main] TestRunner:61 - corporate gift details are submitted
+2021-11-22 12:20:49,080  INFO [main] TestRunner:64 - Christmas Gift added to cart

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="43.933" tests="3" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_311\jre\bin"/>
+    <property name="java.vm.version" value="25.311-b11"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\SDET_Java\BDD-CA"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\SDET_Java\BDD-CA"/>
+    <property name="java.runtime.version" value="1.8.0_311-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_311\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\SAi\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="D:\Maven\apache-maven-3.8.2\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_311\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\python 3.7\Scripts\;D:\python 3.7\;D:\anaconda;D:\anaconda\Library\mingw-w64\bin;D:\anaconda\Library\usr\bin;D:\anaconda\Library\bin;D:\anaconda\Scripts;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\nodejs\node_modules\npm;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-12.0.2\bin;C:\Program Files (x86)\Brackets\command;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;D:\python\Scripts\;D:\python\;C:\Users\SAi\AppData\Local\Microsoft\WindowsApps;C:\Users\SAi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\SAi\Downloads\flutter\bin;C:\Users\SAi\AppData\Roaming\npm;D:\Maven\apache-maven-3.8.2\bin;;."/>
+    <property name="maven.conf" value="D:\Maven\apache-maven-3.8.2/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\SAi"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="SAi"/>
+    <property name="java.class.path" value="D:\Maven\apache-maven-3.8.2\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_311\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_311"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_311\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_311\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_311\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\Maven\apache-maven-3.8.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="feature" classname="Runner.TestRunner" time="2.709">
+    <failure message="org.openqa.selenium.WebDriverException: unknown error: Chrome failed to start: exited normally.&#10;  (unknown error: DevToolsActivePort file doesn&apos;t exist)&#10;  (The process started from chrome location C:\Program Files\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-KIH8VHJ&apos;, ip: &apos;192.168.29.231&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_311&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00A03AB3+2505395]&#10;	Ordinal0 [0x0099AE41+2076225]&#10;	Ordinal0 [0x008A2498+1057944]&#10;	Ordinal0 [0x008BD860+1169504]&#10;	Ordinal0 [0x008B9EBF+1154751]&#10;	Ordinal0 [0x008EA02F+1351727]&#10;	Ordinal0 [0x008E9C9A+1350810]&#10;	Ordinal0 [0x008E58BB+1333435]&#10;	Ordinal0 [0x008C23E4+1188836]&#10;	Ordinal0 [0x008C323F+1192511]&#10;	GetHandleVerifier [0x00B8CB36+1554566]&#10;	GetHandleVerifier [0x00C34A0C+2242396]&#10;	GetHandleVerifier [0x00A90E0B+523099]&#10;	GetHandleVerifier [0x00A8FEB0+519168]&#10;	Ordinal0 [0x009A02FD+2097917]&#10;	Ordinal0 [0x009A4388+2114440]&#10;	Ordinal0 [0x009A44C2+2114754]&#10;	Ordinal0 [0x009AE041+2154561]&#10;	BaseThreadInitThunk [0x76F9FA29+25]&#10;	RtlGetAppContainerNamedObjectPath [0x770F7A9E+286]&#10;	RtlGetAppContainerNamedObjectPath [0x770F7A6E+238]&#10;" type="cucumber.runtime.CucumberException">cucumber.runtime.CucumberException: 
+org.openqa.selenium.WebDriverException: unknown error: Chrome failed to start: exited normally.
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Program Files\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KIH8VHJ', ip: '192.168.29.231', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00A03AB3+2505395]
+	Ordinal0 [0x0099AE41+2076225]
+	Ordinal0 [0x008A2498+1057944]
+	Ordinal0 [0x008BD860+1169504]
+	Ordinal0 [0x008B9EBF+1154751]
+	Ordinal0 [0x008EA02F+1351727]
+	Ordinal0 [0x008E9C9A+1350810]
+	Ordinal0 [0x008E58BB+1333435]
+	Ordinal0 [0x008C23E4+1188836]
+	Ordinal0 [0x008C323F+1192511]
+	GetHandleVerifier [0x00B8CB36+1554566]
+	GetHandleVerifier [0x00C34A0C+2242396]
+	GetHandleVerifier [0x00A90E0B+523099]
+	GetHandleVerifier [0x00A8FEB0+519168]
+	Ordinal0 [0x009A02FD+2097917]
+	Ordinal0 [0x009A4388+2114440]
+	Ordinal0 [0x009A44C2+2114754]
+	Ordinal0 [0x009AE041+2154561]
+	BaseThreadInitThunk [0x76F9FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x770F7A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x770F7A6E+238]
+
+Caused by: org.openqa.selenium.WebDriverException: 
+unknown error: Chrome failed to start: exited normally.
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Program Files\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KIH8VHJ', ip: '192.168.29.231', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00A03AB3+2505395]
+	Ordinal0 [0x0099AE41+2076225]
+	Ordinal0 [0x008A2498+1057944]
+	Ordinal0 [0x008BD860+1169504]
+	Ordinal0 [0x008B9EBF+1154751]
+	Ordinal0 [0x008EA02F+1351727]
+	Ordinal0 [0x008E9C9A+1350810]
+	Ordinal0 [0x008E58BB+1333435]
+	Ordinal0 [0x008C23E4+1188836]
+	Ordinal0 [0x008C323F+1192511]
+	GetHandleVerifier [0x00B8CB36+1554566]
+	GetHandleVerifier [0x00C34A0C+2242396]
+	GetHandleVerifier [0x00A90E0B+523099]
+	GetHandleVerifier [0x00A8FEB0+519168]
+	Ordinal0 [0x009A02FD+2097917]
+	Ordinal0 [0x009A4388+2114440]
+	Ordinal0 [0x009A44C2+2114754]
+	Ordinal0 [0x009AE041+2154561]
+	BaseThreadInitThunk [0x76F9FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x770F7A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x770F7A6E+238]
+
+</failure>
+    <system-err><![CDATA[log4j:WARN No such property [maxBackupIndex] in Utility.Log.
+log4j:WARN No such property [maxFileSize] in Utility.Log.
+log4j:ERROR Could not find value for key log4j.appender.CONSOLE
+log4j:ERROR Could not instantiate appender named "CONSOLE".
+Starting ChromeDriver 95.0.4638.17 (a9d0719444d4b035e284ed1fce73bf6ccd789df2-refs/branch-heads/4638@{#178}) on port 45665
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="feature" classname="Runner.TestRunner" time="22.028"/>
+  <testcase name="feature" classname="Runner.TestRunner" time="14.973"/>
+</testsuite>
